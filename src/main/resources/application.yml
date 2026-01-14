@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: iot-management
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+
+iot:
+  rabbitmq:
+    exchange: iot-exchange
+    queue: iot-events
+    routing-key: iot-events-routing-key
+

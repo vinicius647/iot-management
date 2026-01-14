@@ -1,0 +1,12 @@
+{
+  "sensors": [
+    {
+      "type": "TEMPERATURE",
+      "port": 3344
+    },
+    {
+      "type": "HUMIDITY",
+      "port": 3355
+    }
+  ]
+}

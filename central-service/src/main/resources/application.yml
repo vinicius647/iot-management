@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: central-service
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+server:
+  port: 8181
+
+iot:
+  rabbitmq:
+    queue: iot-events
+  threshold:
+    temperature: 30
+    humidity: 50
